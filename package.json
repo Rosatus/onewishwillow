@@ -80,5 +80,15 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
-  }
+  },
+  "license": "AGPL-3.0-only",
+  "description": "一愿柳：开盒、折枝、许愿的沉浸式互动故事",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rosatus/onewishwillow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rosatus/onewishwillow/issues"
+  },
+  "homepage": "https://github.com/Rosatus/onewishwillow#readme"
 }
