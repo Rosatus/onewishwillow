@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif+SC:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #e8e5d7;
+  background: #030806;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --paper: #e8e5d7;
+  --paper-dim: #aaa99a;
+  --paper-faint: #737c70;
+  --gold: #c4a56d;
+  --gold-bright: #e5c994;
+  --sage: #98ad8e;
+  --rust: #a66b50;
+  --line: rgba(206, 218, 190, .14);
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+  --display: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+  --ease: cubic-bezier(.16, .84, .24, 1);
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+html { background: #030806; }
+body { overflow: hidden; }
+button, textarea { font: inherit; }
+button { color: inherit; border: 0; cursor: pointer; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, textarea:focus-visible, [role='button']:focus-visible {
+  outline: 1px solid var(--gold-bright);
+  outline-offset: 4px;
+}
+::selection { background: rgba(196, 165, 109, .28); color: #fff8e9; }
